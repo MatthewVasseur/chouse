@@ -1,0 +1,75 @@
+<head>
+	<style>
+		.inner {
+			color: #000;
+			font-family: "Georgia", Times, serif;
+		}
+		.inner p {
+			color:#222;
+			font-size:15px;
+		}
+		.inner h3 {
+			font-size:16px;
+			font-weight:bold;
+			text-decoration: underline;
+			margin-bottom:15px;
+		}
+		.image {
+			margin-right:10px;
+			margin-bottom:10px;
+		}
+	</style>
+</head>	
+
+<body>
+	<div id="content" class="home">
+		<div class="inner">
+			<div id="logo" class="section logo">
+				<%= image_tag "logo.png" %>
+			</div>
+		
+			<h2><span>What's going on in Princeton?</span></h2>
+
+			<div class="columns">
+				<div class = "two-left">
+					<h3>Corner House Foundation’s Annual Benefit on April 12th honored Sheryl Punia with the Marie L. Matthews Award</h3>
+					
+					<p>The Greenacres Country Club was rocking Friday, April 12th when Corner House Foundation honored Princeton Alcohol and Drug Alliance chairwoman Sheryl Punia at its annual benefit, Won’t You Come Out Tonight. 
+
+					With the Marie L. Matthews Award, Corner House recognizes individuals or organizations who have gone above and beyond in their service and support of Corner House.  This year’s award was given to Sheryl Punia for her long-standing support of the organization.  Sheryl was the Prevention Coordinator at Corner House, supervising, developing, and facilitating several programs including: Academic Success Today (AST); TAG (Teen Advisory Group), STAR (Super Teens Acting Responsibly), and WOWY (World of Work for Youth).  In 2002 she stepped down as Prevention Coordinator but continued, as a volunteer, to lead drug education and prevention workshops for students and parents at area public and private schools.  Since 2008 Sheryl has chaired the PADA. 
+
+					Our thanks to the many donors to the event; it is their financial and in-kind donations that help support our leadership, prevention, treatment, and outreach programs.</p>
+				</div>
+
+				<div class = "two-right">
+					<%= image_tag "newsImages/flyerOpenHouse.png", :class => "right" %>
+				</div>
+
+				<div style="clear: both;"></div>
+			</div>
+			
+			<h2></h2>
+			
+			<div class="columns">
+				<h3 style="text-align:center">Former Student Leaders Take Alternative Route</h3>
+				<div class="two-left">
+					<p style="width:310px;" class="left">
+						"As most of my friends left for college last September, I left for Cusco, Peru. Prior to starting school, many of my friends discussed with me their worries about meeting new people, doing well in their classes, and adjusting to the world of college. And though I couldn’t quite relate to their anxieties, I had my own set of nerves and fears as I got into my plane seat and headed, alone, to a foreign country where I didn’t know anyone and had no idea what to expect…"
+						<%= link_to "Read more about Rachel Bergman's 'gap year'", "#gapRB"%>
+					</p>
+					<%= link_to (image_tag "newsImages/gapRB.png", :class=>"right"), "#gapRB"%>		
+				</div>
+				
+				<div class="two-right">
+					<p>
+						<%= link_to (image_tag "newsImages/gapWK.png", :class=>"image left"), "#gapWK"%>
+						"In the fall of 2011, I took a NOLS semester in the Pacific Northwest involving mountaineering, rock climbing, coastal backpacking, and sailing. It was a beautiful time, allowing me to take my wilderness skills and leadership experience to a new level. My previous leadership training through organizations like Corner House helped me more than I can convey."
+						<%= link_to "Read more about Will Kearney's 'gap year'", "#gapWK" %>
+					</p>
+				</div>
+				
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+	</div>
+</body>
