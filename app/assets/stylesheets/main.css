@@ -1,5 +1,6 @@
 @import url("reset.css");
 @import url("form.css");
+@import url("footer.css");
 
 body {
 	background: #555;
@@ -278,10 +279,6 @@ body {
 			}
 			.pagination .prev a:hover { background-position: 0 -17px; }
 
-/* #footer
-==========================================================*/
-#footer { padding: 20px 0; }
-	#footer span + span { margin-left: 8px; }
 
 /* ~
 ==========================================================*/
@@ -306,7 +303,6 @@ body,
 #content .tags-list .current-menu-item a,
 #content .text a:hover { color: #61a5c9; }
 
-#footer a,
 #content .badge,
 #navigation li li a:hover,
 #navigation > ul > li:hover > a { color: #fff; }
@@ -427,7 +423,6 @@ hr,
 .work .gallery .photos,
 #navigation > ul > li { position: relative; }
 
-#footer,
 .home h2,
 .home .logo,
 .home .about { text-align: center; }

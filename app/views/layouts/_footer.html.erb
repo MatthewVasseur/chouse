@@ -1,9 +1,25 @@
 <div id="footer">
-	<div class="footer">
+	<div id="hifooter">
+		<%= link_to "One Monument Drive &diams; Princeton, NJ 08542 &diams; 609-924-8018".html_safe, "#hours"
+		%>
+		
+	</div>
+	
+	<div id="midfooter">
+		<%= image_tag "footer/40years.png"%>
+		<p style="display:inline">
+			<%= image_tag "footer/donate_new.png"%>
+			<p id="donors">
+				<%= link_to "Thank you, Corner House Foundation Donors…", "#donors" %>
+			</p>
+		</p>
+	</div>
+	
+	<div id="lowfooter">
 		<p>
-			<span>&copy; 2011 by <a href="#">Blanka</a></span>
+			<span>&copy; 2013 Corner House NJ </span>
 			<span>All rights reserved.</span>
-			<span>Designed by <a href="http://highonpixels.com">High on Pixels</a> team.</span>
+			<span><%= link_to "Privacy Statement", "#privacy" %></span>
 		</p>
 	</div>
 </div>

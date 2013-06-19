@@ -1,0 +1,37 @@
+/* #footer
+==========================================================*/
+#footer {
+	padding: 0px 0;
+	text-align:center;
+	font-family: "Georgia", Times, serif;
+}
+	#footer span + span { margin-left: 8px; }
+	#footer a:hover { text-decoration:underline}
+
+#footer #hifooter {
+	background:#939905;
+	color: #555;
+	font-size:14px;
+}
+	#footer #hifooter a {
+		color:#555;
+	}
+
+#footer #midfooter {
+	padding:5px 0;
+	background:#555;
+}
+	#footer #midfooter #donors a {
+		color:#939905;
+	}
+
+
+#footer #lowfooter {
+	background:#939905;
+	color:#555;
+	font-size:11px;
+}
+	#footer #lowfooter a {
+		 color:#555;
+	}
+
