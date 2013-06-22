@@ -1,26 +1,35 @@
+<script type="text/javascript">
+$(document).ready(function(){
+  $("li.menu").click(function(){
+		$("li.menu").removeClass("current-menu-item");
+		$(this).addClass("current-menu-item");
+  });
+});
+</script>
+
 <div id="header">
 	<div class="inner cf">
 		<div id="navigation">
 			<ul>
-				<li class = "current-menu-item">
-					<%= link_to "home", root_url%>
+				<li class="menu">
+					<%= link_to "home", root_url %>
 				</li>
 				
-				<li>	
-					<%= link_to "about us", "#mission" %>
+				<li class="menu">	
+					<%= link_to "about us", about_path %>
 					<ul>
-						<li><%= link_to "&raquo;".html_safe+" Mission & History", "#mission" %></li>
+						<li><%= link_to "&raquo;".html_safe+" Mission & History", about_path %></li>
 						<li><%= link_to "&raquo;".html_safe+" Leadership Video", "#lvid" %></li>
 						<li><%= link_to "&raquo;".html_safe+" Staff", "#staff" %></li>
 						<li><%= link_to "&raquo;".html_safe+" Hours & Directions", "#hours" %></li>
 					</ul>
 				</li>
 				
-				<li>
+				<li class="menu">
 					<%= link_to "treatment", "#tment" %>
 				</li>
 				
-				<li>	
+				<li class="menu">	
 					<%= link_to "leadership", "#ption" %>
 					<ul>
 						<li><%= link_to "&raquo;".html_safe+" Prevention", "#ption" %></li>
@@ -28,35 +37,35 @@
 					</ul>
 				</li>
 				
-				<li>
+				<li class="menu">
 					<%= link_to "outreach", "#oreach" %>
 				</li>
 				
-				<li>
+				<li class="menu">
 					<%= link_to "board", "#board" %>
 				</li>
 				
-				<li>
+				<li class="menu">
 					<%= link_to "Foundation", "#fdation" %>
 				</li>
 				
-				<li>
+				<li class="menu">
 					<%= link_to "PADA", "#pada" %>
 				</li>
 				
-				<li>
+				<li class="menu">
 					<%= link_to "forms", "#forms" %>
 				</li>
 				
-				<li>
+				<li class="menu">
 					<%= link_to "videos", "#vids" %>
 				</li>
 				
-				<li>
+				<li class="menu">
 					<%= link_to "resources", "#rces" %>
 				</li>
 				
-				<li>
+				<li class="menu">
 					<%= link_to "calendar", "#cdar" %>
 				</li>
 				
